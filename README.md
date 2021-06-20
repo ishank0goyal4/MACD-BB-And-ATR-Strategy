@@ -1,2 +1,5 @@
-# MACD-BB-And-ATR-Strategy
-I have used Moving average convergence divergence (MACD), Bollinger bands and Average true range(ATR) to create this strategy. Backtested this strategy on RBL Bank from April 2018 to June 2021. Using historical time-series data, This strategy gives a return of 77% while the Buy and Hold return was -57%.
+# MACD, BB And ATR-Strategy
+## Trade Setup
+Rules to Buy:- Golden Crossover between MACD line and MACD signal line and price of the underlying is below Bollinger Band Indicator down band, i.e., simple moving average minus two standard deviations.
+
+Rules to Close positions:- The trailing stop-loss for the long position is Last day close price - ATR  
